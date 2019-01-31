@@ -9,12 +9,13 @@ console.log(result)
 
 console.log('---------')
 
-const student = ['jo', 'mario', 'sakti', 'ari', 'bara', 'ajin']
+const student = ['jo ', 'mario ', 'sakti ', 'ari ', 'bara ', 'ajin ']
 const best = student[4] + 'best student'
 console.log(best)
-const good = student[2] + student[0] + student[2] + 'its so good'
+const good =
+  student[2] + 'dan ' + student[0] + 'dan ' + student[1] + 'its so good'
 console.log(good)
-const bad = student[3] + student[5] + 'its not so good'
+const bad = student[3] + 'dan ' + student[5] + 'its not so good'
 console.log(bad)
 
 console.log('--------')
